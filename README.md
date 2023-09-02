@@ -1,4 +1,4 @@
-# BUMETCS673A1F21P1
+# Trivia Web App
 
 Project Description
 
