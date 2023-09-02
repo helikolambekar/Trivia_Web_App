@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %} Edit Question {% endblock %}
+
+{% block content %}
+
+    <h1 class='text-center'>Edit Question</h1>
+    <table class='table'>
+        <a href='/admin/question/new' class='btn btn-primary'> Add New</a> |  
+        <a href='/admin' class='btn btn-secondary'> Back </a>
+        <tr>
+            <th>Category</th>
+            <th>Question</th>
+            <th>Answer</th>
+            <th>Option1</th>
+            <th>Option2</th>
+            <th>Option3</th>
+        </tr>
+        <tbody class='table-striped'>
+        {% for i in question %}
+            <tr>
+                <td>{{ i.category }}</td>
+                <td>{{ i.question }}</td>
+                <td>{{ i.answer }}</td>
+                <td>{{ i.option_1 }}</td>
+                <td>{{ i.option_2 }}</td>
+                <td>{{ i.option_3 }}</td>
+                <td>
+                    <form method="POST" action="{{ url_for('admin.edit') }}">
+                        <input id="question_id" name="question_id" value="{{ i.id }}" style="visibility: hidden;">
+                        <button type="submit" class="btn btn-secondary btn-sm">Edit</button>
+                    </form>
+                </td>
+                <td>
+                    <form method="POST" action="{{ url_for('admin.delete_question') }}">
+                        <input id="question_id" name="question_id" value="{{ i.id }}" style="visibility: hidden;">
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

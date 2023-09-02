@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %} Edit Question {% endblock %}
+{% block content %}
+    <h1 class='text-center'>Edit Question</h1>
+    <a href='/admin/question' class='btn btn-primary'> Back </a>
+    <br>
+    <br>
+    <!-- Category -->
+    <div class="form-group">
+        <h5>EDIT QUESTION!</h5>
+        <form method="POST" action="{{ url_for('admin.edit_question') }}">
+            <input type="text" name="question_id" id="question_id" style="visibility: hidden;" value="{{ question.id }}"><br>
+            <label for="cateogry" style="font-weight: bold;">Category: </label>
+                <input  class="form-control" type="text" name="category"  id = 'category'value="{{ question.category }}">
+            <label for="question" style="font-weight: bold;">Question: </label>
+                <input  class="form-control" type="text" name="question" id="question"  value="{{ question.question }}">
+            <label for="answer"   style="font-weight: bold;">answer: </label>
+                <input class="form-control" type="text" name="answer" id="answer" value="{{ question.answer }}">
+            <label for="option_1" style="font-weight: bold;">Option 1: </label>
+                <input class="form-control" type="text" name="option_1"id="option_1" value="{{ question.option_1 }}">
+            <label for="option_2" style="font-weight: bold;">Option 2: </label>
+                <input class="form-control" type="text" name="option_2" id="option_2" value="{{ question.option_2 }}">
+            <label for="option_3" style="font-weight: bold;">Option 3: </label>
+                <input  class="form-control" type="text" name="option_3" id="option_3" value="{{ question.option_3 }}">
+            <br>
+            <button type="submit" class="btn btn-primary btn-sm">UPDATE QUESTION</button>
+        </form>
+    </div>
+    <br>
+
+    
+{% endblock %}

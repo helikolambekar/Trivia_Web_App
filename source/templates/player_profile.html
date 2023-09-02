@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %} Player Profile {% endblock %}
+
+{% block head %}
+    <script type="text/javascript" src="{{ url_for('static', filename='/js/player_profile.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Account info</h4>
+            <div class="mb-3">
+                <h6>Username<a class="btn btn-sm btn-link" href="/playerProfile?edit=username">Edit</a></h6>
+                {% if request.args.get('edit') == 'username' %}
+                    <form id='edit-username' method="POST" action="{{ url_for('player_profile.edit_username') }}">
+                        <input type="text" name="username" placeholder={{ user.player_name }} required>
+                        <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                    </form>
+                {% else %}
+                    <div class="mb-3">{{ user.player_name }}</div>
+                {% endif %}
+            </div>
+            <div class="mb-3">
+                <h6>Email<a class="btn btn-sm btn-link" href="/playerProfile?edit=email">Edit</a></h6>
+                {% if request.args.get('edit') == 'email' %}
+                    <form id='edit-email' method="POST" action="{{ url_for('player_profile.edit_email') }}">
+                        <input type="text" name="email" placeholder={{ user.email }} required>
+                        <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                    </form>
+                {% else %}
+                    <div class="mb-3">{{ user.email }}</div>
+                {% endif %}
+            </div>
+            <div class="mb-3">
+                <h6>Password<a class="btn btn-sm btn-link" href="/playerProfile?edit=password">Edit</a></h6>
+                {% if request.args.get('edit') == 'password' %}
+                    <form id='edit-password' method="POST" action="{{ url_for('player_profile.edit_password') }}">
+                        <input type="password" name="password1" placeholder="********" required>
+                        <input type="password" name="password2" placeholder="********" required>
+                        <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                    </form>
+                {% else %}
+                    <div class="mb-3">*******</div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-md-4 order-md-2 mb-4">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="mb-3">Top scores</span>
+            </h4>
+            <ul class="list-group mb-3">
+                {% for s in scores %}
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <div>
+                            <h6 class="my-0">{{ s.category }}</h6>
+                            <small class="text-muted">{{ s.username }}</small>
+                        </div>
+                        <span class="text-muted">{{ s.score }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    
+    </div>
+
+
+
+{% endblock %}

@@ -1,0 +1,11 @@
+Flask
+Flask-SQLAlchemy==2.5.1
+SQLAlchemy==1.4.25
+Werkzeug
+pandas
+Flask-Login
+pytest-flask
+psycopg2-binary
+Flask-Login
+flask-mail
+gunicorn

@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(228, 251, 252);
+}
+
+#categorybox {
+    display: flex;
+    width: 100%;
+}
+
+#categorybox .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#categorybox .container .text-center {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border: 20px solid rgb(228, 251, 252);
+    border-collapse: collapse;
+    background-color: #5bd3d3;
+    width: 360px;
+    height: 220px;
+    text-decoration: none;
+}
+
+#categorybox .container .text-center:hover {
+    z-index: 9999;
+    transform: scale(1.1);
+    background: #5bd3d3;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+}
+
+.selected {
+    color:white;
+}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Add Question{% endblock %}
+{% block content %}
+    <form action="{{ url_for('admin.add_question') }}" method="post">
+        <h3 align="center">Add Question</h3>
+
+        <!-- Category -->
+        <div class="form-group">
+            <label for="category">Category</label>
+            <input type="text" class="form-control" id="category" name="category"
+                   placeholder="Enter question category here"/>
+        </div>
+
+        <!-- Question -->
+        <div class="form-group">
+            <label for="question">Question</label>
+            <input type="text" class="form-control" id="question" name="question" placeholder="Enter question here"/>
+        </div>
+
+        <!-- Answer -->
+        <div class="form-group">
+            <label for="answer">Answer</label>
+            <input type="text" class="form-control" id="answer" name="answer" placeholder="Enter answer here"/>
+        </div>
+
+        <!-- Option1 -->
+        <div class="form-group">
+            <label for="option1">Option1</label>
+            <input type="text" class="form-control" id="option1" name="option1"
+                   placeholder="Enter nonanswer option here"/>
+        </div>
+
+        <!-- Option2 -->
+        <div class="form-group">
+            <label for="option2">Option2</label>
+            <input type="text" class="form-control" id="option2" name="option2"
+                   placeholder="Enter nonanswer option here"/>
+        </div>
+
+        <!-- Option3 -->
+        <div class="form-group">
+            <label for="option3">Option3</label>
+            <input type="text" class="form-control" id="option3" name="option3"
+                   placeholder="Enter nonanswer option here"/>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+{% endblock %}

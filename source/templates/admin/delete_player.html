@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %} delete player page {% endblock %}
+
+{% block content %}
+    <script type="text/javascript" src="{{ url_for('static', filename='/js/delete_player.js') }}"></script>
+    <h1 align="center">Edit Players</h1>
+    <ul class="list-group list-group-flush" id="players">
+
+        {% for player in players %}
+
+        <!-- User cant delete themselves -->
+        {% if player.id != current_user.id %} 
+            <li class="list-group-item">
+                {{ player.email }}
+                <button type="button" class="close" onClick="deletePlayer({{ player.id }})">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </li>
+        {% endif %}
+        
+        {% endfor %}
+    </ul>
+
+{% endblock %}

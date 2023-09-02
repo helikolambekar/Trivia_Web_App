@@ -1,0 +1,215 @@
+ID,Category,Question,Answer,Option_1,Option_2,Option_3
+1,Geography,What is the largest State in the United States?,Alaska,Texas,Califonia,Washington
+2,Geography,What is the smallest country in the world?,Vatican City,Belgium,The Netherlands,Andorra
+3,Geography,What African country has Portuguese as its official language?,Mozambique,Kenya,Senegal,Ghana
+4,Geography,How many timezones does Russia have?,11,8,4,16
+5,Geography,Which of the following is NOT a capital city?,Sydney,Washington DC,Santiago,Wellington
+6,Geography,Which of these island countries is located in the Caribbean?,Barbados,Java,Tahiti,Bermuda
+7,Geography,"What is the capital of the State of Washington, United States?",Olympia,Washington DC,Eugene,Seattle
+8,Geography,"Which country has the abbreviation ""CH""?",Switzerland,China,Chile,Chad
+9,Geography,"In what city would you find the ""Spanish Steps""?",Rome,Barcelona,Madrid,Mexico City
+10,Geography,Which country was NOT part of the Soviet Union?,Romania,Russia,Khazakstan,Estonia
+11,Science,What is the most abundant element in the universe?,Hydrogen,Oxygen,Sodium,Carbon
+12,Science,Which Planet is furthest from the Sun,Neptune,Jupiter,Satern,Mercury
+13,Science,Water Boils at what temperature? (Fahrenheit),212,100,32,273
+14,Science,Which of the following is NOT a phase of matter,Jello,Plasma,Solid,Liquid
+15,Science,"A ""Geigar Counter"" measures which phenomena?",Radiation,Acceleration,Pressure,Mass
+16,Science,Table Salt is more formally known as which of the following,NaCl,H2O,Snow White,CH4
+17,Science,The element Au is better known by which name?,Gold,Xenon,Arsenic,Argon
+18,Science,Which Fundamental Force holds nucleons together?,Strong,Gravity,Weak,Electromagnetic
+19,Science,Which Fundamental Force is responsible for the decay of atoms?,Weak,Gravity,Electromagnetic,Strong
+20,Science,Which scientist established the 3 laws of motion?,Newton,Einstein,Maxwell,Faraday
+21,Art,How many keys does a piano have?,88,87,86,89
+22,Art,Which of the following character is written by Tolstoy?,Anna Karenina,Julien Sorel,Madame Bovary,Rodion Romanovich Raskolnikov
+23,Art,What's Chopin 's nationality?,Polish,German,French,Dutch
+24,Art,Which of the following is not an idea of Confucius?,"""You are not me, so how can you know I don't know what fish enjoy.""","""How about 'reciprocity'! Never impose on others what you would not choose for yourself.""","""What you do not wish for yourself, do not do to others."""," ""When I walk along with two others, they may serve me as my teachers. I will select their good qualities and follow them, their bad qualities and avoid them."""
+25,Art,Which of th following is not a characteristic/feature of Yayoi Kusama's art?,Hydrangea macrophylla,Mirror,Pumpkin,Polka Dot
+26,Art,Which of the following artwork is not exhibited in Musée du Louvre?,Hoa Hakananai'a,La Liberté guidant le peuple,Mona Lisa,Winged Victory of Samothrace
+27,Art,Which of the following ballet is not composed by Pyotr Ilyich Tchaikovsky?,The Queen of Spades,The Nutcracker,The Sleeping Beauty,Swan Lake
+28,Art,"Same as Johann Sebastian Bach, who is also a musician in the Baroque period?",Georg Friederich Händel,Ludwig van Beethoven,Franz Liszt,Franz Schubert
+29,Art,Pablo Picasso once said: Art is a lie that makes us realize the truth. Which of the following is not one of his artistic characteristics?,Romanticism,Cubism,Post-impressionism,Surrealism
+30,Art,Which of the following is not a major figure in the film art movement La Nouvelle Vague?,Robert Bresson,Éric Rohmer,François Roland Truffaut,Jean-Luc Godard
+31,TV shows,What is the name of Phoebe’s twin sister in Friends?,Ursula,Patricia,Jonna,Zoey
+32,TV shows,What do Monica and Chandler name their twins in Friends?,Jack and Erica,John and Isabella,Jill and Patrick,Phil and Lucy
+33,TV shows,Which of the following characters is not highborn in Game of Thrones?,Gendry,Arya,Maester Aemon,Renly
+34,TV shows,Who killed Stannis Baratheon at Winterfell?,Brienne,Arya,Sandor Clegane,Robert Baratheon
+35,TV shows,Dreadfort is the stronghold of which noble house in Westros?,Boltons,Florent,Karstarks,Greyjoys
+36,TV shows,How old is Prince Joffrey when he is coronated in the TV show?,16 years,11 years,15 years,21 years
+37,TV shows,"What is the name of the board game that Mike, Dustin, Lucas, and Will love to play in Stranger Things?",Dungeons and Dragons,Skribble,Dragon's Lair,Snakes and Ladders
+38,TV shows,How much currency does the gang print at the Royal Mint in Money Heist?,985 million euros,158 million euros,1 billion euros,658 million euros
+39,TV shows,How many heists had Berlin pulled off before the event of “Money Heist” ?,27,11,5,21
+40,TV shows,What street do Sherlock Holmes and Watson live on?,Baker Street,Regency Street,High Street,Park Street
+41,Mythology,What is the name of the home of the Greek Gods?,Olympus,Takamagahara,Sukhavati,Midgard
+42,Mythology,Which warrior’s weakness was their heel?,Achilles,Jason,Menelaus,Aeneas
+43,Mythology,Who was the messenger of the gods?,Hermes,Orpheus,Hestia,Athena
+44,Mythology,What’s the name of the paradise warriors go to after death in norse mythology?,Valhalla,Devaloka,Yomi,Heaven
+45,Mythology,Thor was the son of which God?,Odin,Zeus,Loki,Kratos
+46,Mythology,Romulus and Remus were raised by what animal?,Wolf,Tiger,Lion,Jaguar
+47,Mythology,The Roman God of War inspired the name of which planet?,Mars,Mercury,Jupiter,Uranus
+48,Mythology,What was the name of the Egyptian God of the Sun?,Ra,La,Ka,Fa
+49,Mythology,"Anubis, the God of Death, had the head of a_____",Jackal,Dhole,Coyote,Husky
+50,Mythology,"Set throws Osiris into which river, after tricking him into a coffin?",Nile,Amazon,Yangtze,Charles
+51,Computer Science,A personal computer stores documents or other data temporarily on ___?,RAM,ROM,FLASH drive,Processor
+52,Computer Science,"If you restart your computer by selecting the restart button, it is known as ___?",A & D,Soft boot,Cold boot,Warm boot
+53,Computer Science,1 Megabyte (MB) = __?,"1,024 kb","1,000 kb","1,200 kb","1,275 kb"
+54,Computer Science,Which computer program converts assembly language to machine language?,Assembler,Interpreter,Compiler,Comparator
+55,Computer Science,A computer use which type of number system to calculate and to store data?,Binary,Decimal,Octal,Hexadecimal
+56,Computer Science,One Terabyte (1TB) is equal to,1024 GB,1028 GB,1912 GB,1000 GB
+57,Computer Science,The basic uits of a excel spreedsheet where we enter data is called ___?,Cell,Tab,Box,None of the above
+58,Computer Science,"What does the letter ""S"" stand for in the Web terminology ""HTTPS""?",Secure,Safe,Short,Shorter
+59,Computer Science,Which one IP address cannot be assign to a computer system in a network?,127.0.0.1,192.168.1.1,192.1.1.27,None of the above
+60,Computer Science,USB Hard disk is a ___ type of storage device.,Secondary,Primary,Teriary,Auxillary
+61,Movie,"Where were ""The Lord of the Rings"" movies filmed?",New Zealand,Ireland,Iceland,Australia
+62,Movie,"Which is not the name of a child selected to tour the Wonka factory in ""Willy Wonka and the Chocolate Factory""?",Billy Warp,Veruca Salt,Mike Teavee,Charlie Bucket
+63,Movie,"Who did the cat in ""The Godfather"" belong to?",No one—the cat was a stray.,Francis Ford Coppola,Diane Keaton,Al Pachino
+64,Movie,What is the name of the fictional land where Frozen takes place?,Arendelle,Naples,Florin,Grimm
+65,Movie,"What item is in every ""Fight Club"" scene?",A Starbucks cup,A Coca-Cola can,A Dunkin’ donut,A Pepsi bottle
+66,Movie,Which actor hasn’t played the Joker?,Sean Penn,Jack Nicholson,Jared Leto,Mark Hamil
+67,Movie,Which two movies started from the same script?,E.T. and Poltergeist ,Star Wars and Close Encounters of the Third Kind,The Goonies and Indiana Jones,Jurassic Park and The Land Before Time
+68,Movie,What was the first movie in the Marvel Cinematic Universe?,Iron Man,The Incredible Hulk,Spider-Man,Captain America
+69,Movie,For which of these movies did Leonardo DiCaprio win an Oscar for Best Actor?,The Revenant,Blood Diamond,The Last King of Scotland,Titanic
+70,Movie,What type of animal appears in the opening credits of movies produced by MGM studios?,Lion,Giraffe,Rooster,Duck
+71,Anime,Dragon Ball' was created by who in 1984?,Akira toriyama,Satoshi Tajiri,Hirohiki Araki,Hayao Miyazaki
+72,Anime,What is the name of Studi Ghibli's well known mascot?,Totoro,Kiki,Bakura,Ponyo
+73,Anime,In which anime series is Ash Ketchum the main character?,Pokemon,Eyeshield 21,Cowboy Bebop,Super Dimension Fortress Macross
+74,Anime,In 'Sailor Moon' the anime character Makoto Kino transforms,Sailor Jupiter,Sailor Mercury,Sailor Venus,Sailor Mars
+75,Anime,"In 'Nurato', the main character, Naruto Uzumaki, is a host for the powerful Nine-Tales. What creature is th Nine-Tails?",Fox,Wolf,Bear,Cat
+76,Anime,Yubaba is a witch in which animated film written and directed by Hayao Miyazaki?,Spirited Away,Castle in the sky,Ocean Waves,Pom Poko
+77,Anime,Which anime series is set in the world of Amestris?,Fullmetal Alchemist,Nurato,Sailor Moon,Pokemon
+78,Anime,"In 'Howl's Moving Castle', Sophie is transformed into an old woman by a witch . How old is sophies as an old woman?",90 years old,75 years old,87 years old ,101 years old
+79,Anime,"In 'One Piece', Monkey D. Luffy originally sets out with the Straw Hat Pirates to become the pirate king on which ship?",Going Merry,Jolly rGER,Thousand Sunny,Ever Darker
+80,Anime,Which planest is also know as the Dragon world in 'Dragon Ball'?,Earth,Mars,Jupiter,Neptune
+81,Anime,Which series is set in the dark underworld of Victorian London?,black Butler,Phantomhive,Valkyria Chronicles,Blue Exorcist
+82,Geography,What river runs through Baghdad?,Tigris,Euphrates,Jordan,Nile
+83,Geography,What country has the most natural lakes?,Canada,United States,Russia,Brazil
+84,Geography,WHat is the driest place on earth?,"McMurdo, Antartica","The Sahara Desert, North Africa","The Empty Quarter, Saudi Arabia","The Outback, Australia"
+85,Geography,What African country has the most pyrimads?,Sudan,Egypt,Lybia,Lybia
+86,Geography,What African country served as the setting for Tatooine in Star Wars?,Tunisia,Egypt,Morocco,Algeria
+87,Geography,What is the oldest City in the world?,Jericho,Damascus,Jerusalem,Athens
+88,Geography,Which U.S. state has the most active volcanoes?,Alaska,Hawaii,California,Washington
+89,Geography,What is the flattest continent?,Australia,Antartica,Africa,South America
+90,Geography,What country has the most coastline?,Canada,United States,Russia,China
+91,Geography,Which of these African nations is NOT landlocked?,Congo,Chad,Niger,Central African Republic
+92,Geography,"Along with Spain and France, what is the other country to have both Atlantic and Mediterranean coastlines?",Morroco,Lebanon,Syria,Egpyt
+93,Geography,What is the tallest mountain in North America?,Mt. Denali,Mt. Saint Helens,Mt. Washington,Mt. Mitchell
+94,Geography,What continent contains the most fresh water?,Antartica,North America,Africa,Asia
+95,Geography,What ocean is home to 75% of the Earth's volcanoes?,Pacific,Atlantic,Indian,Artic
+96,Geography,What is the oldest active volcano on Earth?,Mt. Etna,Mt. Fuji,Mt. Vesuvius,Mt. Everest
+97,Geography,What river runs through Paris?,Seine,Thames,Danube,Elbe
+98,Geography,What is the most populated country in Africa?,Nigeria,Egypt,South Africa,Ethiopia
+99,Geography,What European country is home to Transylvania?,Romania,Hungary,Bulgaria,Latvia
+100,Geography,Which country is NOT part of the Scaninavian Peninsula?,Denmark,Sweden,Finland,Norway
+101,Geography,What is the capital of Turkey?,Ankara,Istanbul,Izmir,Bursa
+102,Art,The European Renaissance is a period covering?,15th & 16th centuries,14th & 15th centuries,16th & 17th centuries,13rd & 14th centuries
+103,Art,"Starting from 13th century, Sonnet has which of the following structure?",14-line,13-line,15-line,16-line
+104,Art,"L.H.O.O.Q.' is a work of art by Marcel Duchamp, which he later loosely explain it is a pun for?","""there is fire down below""","""She is hot in the arse""","""She has a hot ass""",Mona Lisa smoking a pipe'
+105,Art,"Andy Warhol has famous artwork with a can soup, what brand is it?",Campbell,Amy,Pacific,Progresso
+106,Art,Avant-garde theater began to develop around what time period?,late 19th century,late 18th century,early 18th century,early 20 century
+107,Art,"Eighteenth century opera houses were constructed with a U-shaped auditorium, with sets of private boxes arranged in tiers. What did this arrangement make possible?",To show the royal or high-ranking identity of the dignitaries,For more seating options,To show different angle of the stage,To show the design of the theatre
+108,Art,Clara Schumann (1819-1896) was more renowned in her lifetime than her husband Robert as a composer and performer for what instrument?,The Piano,The Harp,The Lute,The Violin
+109,Art,Franz Joseph Haydn (1732-1809) is known as the father of,The symphony,Johann Christian Bach,The English Oratorio,The baryton
+110,Art,"Madama Butterfly by Giacomo Puccini (1858-1924), an example of Orientalism, was set in what country?",Nagasaki(Japan),India,Vietnam,China
+111,Art,"Who composed Die Zauberflöte (The Magic Flute), which is filled with symbolic imagery derived from Freemasonry?",Wolfgang Amadeus Mozart,Ludwig van Beethoven,Gioachino Rossini,Richard Wagner 
+112,Science,The 'e' in the famous equation e = mc^2 represents the quantity of what?,energy,entropy,endrogy ,endoplasmic reticulum 
+113,Science,The 'm' in the famous equation e = mc^2 represents the quantity of what?,mass,motion,minutes,money
+114,Science,The light of the sun is what color?,white,red,blue,yellow
+115,Science,The electron was discovered by which scientist?,JJ Thomson,Nikola Tesla,Thomas Edison,James Clerk Maxwell
+116,Science,The process in which plants utilize light energy to convert carbon dioxide and water into a food source is called:,photosynthesis,chlorophyll,heat,tanning
+117,Science,Which organelle is known as 'the powerhouse of the cell',Mitochondria,Endoplasmic Reticulum,Nucleus,Ribosome
+118,Science,An Oxygen atom has how many valence electrons?,6,4,5,7
+119,Science,How many planets are in our solar system?,8,9,7,11
+120,Science,Which scientist was famous for speaking a heliocentric view of our solar system?,Capernicus,Einstein,Newton,Hooke
+121,Science,"The phrase 'positive' and 'negative' charge, in association with electricity is attributed to which scientist?",Benjamin Franklin,George Washington,Nikola Tesla,Michael Faraday
+122,Art,Pop Art is,An art movement that involves imagery dealing with Pop culture,An art movement the involves imagery dealing with food,An art movement that involves famous people,An art form with pop up artistic features
+123,Art,"The artist that used repeating images, such as Marilyn Monroe or Campbell's soup is",Andy Warhol,"
+Roy Lichtenstein",Claus Oldenburg,Robert Rauschenberg
+124,Art,The artist that enlarged small areas of comic strips are,"
+Roy Lichtenstein",Andy Warhol,Claus Oldenburg,Robert Rauschenberg
+125,Art,The artist that took everyday imagery from newspapers and magazines to create collages is,Robert Rauschenberg,Andy Warhol,"
+Roy Lichtenstein",Claus Oldenburg
+126,Art,The artist that create large sculptures of everyday objects and placed the sculptures in large cities is,Claus Oldenburg,Robert Rauschenberg,Andy Warhol,"
+Roy Lichtenstein"
+127,Art,"
+Food, such as McDonald's, could be a subject of Pop Art because:",it is a major influence on consumer culture.,It is popular.,Everyone can create it. ,Everyone knows it
+128,Art,What was the main goal of the artists belonging to the Pop Art movement?,"They were trying to question the concept of ""what is art""",They wanted to appeal to their audience,They wanted to create artwork using imagery that they enjoyed,They wanted to make more money with less cost. 
+129,Art,What is the principle of art that indicates movement by the repetition of elements?,Rhythm,Variety,Balance,Unity
+130,Art,"Which famous painter was also a sculptor, an architect, and an engineer?",Leonardo Da Vinci,Francoise Gilot,Andy Warhol,Claude Monet
+131,Art,Who was the first living person to have their art displayed in The Louvre?,Georges Braque,Vincent Van Gogh,Leonardo Da Vinci,Claude Monet
+132,Art,Claude Monet is most known for his paintings of what?,Water lily paintings,Polka Dot,Sun Flower,Egg
+133,Science,"What celestial object was named in 1930,by an eleven-year-old girl named Venetia Burney?",Pluto,Mars,Halley's Comet,The Sun
+134,Science,"Diamonds being the hardest,which of these gems is the second hardest according to the Mohs scale?",Sapphire,Topaz,Quartz,Talc
+135,Science,"Viewed from above the sun’s north pole,which of these planets is the only one to rotate clockwise?",Venus,Murcery,Jupiter,Earth
+136,Science,"The humorous “Godwin’s Law” theory says that if an online discussion gets long enough,what figure will inevitably be mentioned?",Hilter,Jesus,Ronald McDonald,Muhammad 
+137,Science,The planet Venus is surrounded by a thick layer of clouds composed of what concentrated substance?,Sulferic Acid,Hydrogen Peroxide,Helium ,Sierra Mist
+138,Science,"In fireworks, the color blue is created by burning compounds of what metal?",Copper,Lithium,Silver,Gold
+139,Science,"Deoxiribose, a main component of DNA, is a type of what?",Sugar,Element,Inorganic Compound,Metal
+140,Science,"Developed by the Greeks,the outdated geocentric theory of the universe states that what lies at its center?",Earth,Mars,a Black Hole,Jupiter
+141,Science,"Far lighter than lead, what electron-rich metal does Chevrolet use for the batteries in its Volt car?",Lithium,Gold,Copper,Steel
+142,Science,"Featured on light bulb packages,what unit of measure is defined as the amount of light emitted by one candle?",Lumen,Watts,Power,Mass
+143,Science,"Important for its use in fertilizer, ammonia is a compound made from hydrogen and what other element?",Nitrogen,Oxygen,Carbon,Hydrogen
+144,Science,"In 2009,astronomers discovered a “supersized” ring around what planet,much further away than its other known rings?",Saturn,Murcery,Neptune,Jupiter
+145,Movie,The code in The Matrix comes from what food recipes?,Sushi recipes,Dumpling recipes,Stir-fry recipes,Pad thai recipes
+146,Movie,What’s the name of Meatloaf’s character in The Rocky Horror Picture Show?,Eddie,Henry,Chuck,Al
+147,Movie,Who voices Joy in Pixar’s Inside Out?,Amy Poehler,Tina Fey,Kathryn Hahn,Ellen DeGeneres
+148,Movie,Which country does Forrest Gump travel to as part of the All-American Ping-Pong Team?,China,Vietnam,Sweden,France
+149,Movie,Which famous Pulp Fiction scene was filmed backward?,Mia’s overdose scene,Vincent and Mia’s dance scene,The royale with cheese scene,The Ezekiel 25:17 scene
+150,Movie,Who was the first Black person to win an Oscar?,Hattie McDaniel,Sidney Poitier,Dorothy Dandridge,James Earl Jones
+151,Movie,What score did Elle Woods get on her LSAT in Legally Blonde?,179,155,166,170
+152,Movie,Which movie is this famous line from: “I wish I knew how to quit you.”,Brokeback Mountain,Love Actually,How to Lose a Guy in 10 Days,The Notebook 
+153,Movie,What was the top-grossing movie of 2014?,Guardians of the Galaxy,The Lego Movie,The Hunger Games: Mockingjay Part 1,Captain America: The Winter Soldier 
+154,Movie,How old was Stockard Channing when she played high school student Rizzo in Grease?,33,27,35,20
+155,Movie,Who directed the hit 2017 movie Get Out?,Jordan Peele,James Wan,Guillermo del Toro,Tim Story
+156,Movie,Which is the first movie in the Austin Powers franchise?,Austin Powers: International Man of Mystery ,Austin Powers: Spy of the World ,Austin Powers: The Spy Who Shagged Me ,Austin Powers in Goldmember 
+157,Movie,What is the name of the camp where counselors are terrorized by a slasher in Friday the 13th?,Camp Crystal Lake,Camp Holland Lake,Camp Diamond Lake,Camp Green Lake
+158,Movie,Some of the velociraptor noises in Jurassic Park are actually which animals mating?,Tortoises,Frogs,Lizards,Crocodiles
+159,Movie,Which country was the 2017 movie Call Me By Your Name filmed?,Italy,France,Greece,Morocco
+160,Movie,The dog in The Sandlot is nicknamed “The Beast.” What’s the dog’s actual name?,Hercules,Goliath,Zeus,Atlas
+161,Movie,Which singer starred alongside Steve Martin in 2006’s remake of The Pink Panther?,Beyoncé,Britney Spears,Rihanna,Mariah Carey
+162,Movie,"In Mean Girls, Cady moves to Illinois from which continent?",Africa,Australia,Europe,Asia
+163,Movie,Michael Myers’ mask in Halloween is which actor’s face?,William Shatner,Clint Eastwood,Marlon Brando,Paul Newman
+164,Movie,Which movie does not feature Emma Stone?,No Strings Attached,Superbad,Easy A,The Help
+165,Movie,What object was Toy Story’s Woody originally?,A ventriloquist dummy,A puppet,A clown doll,A nesting doll
+166,Computer Science,Which among the following is the shortcut key to open the shortcut menu for the active window?,Alt + Spacebar,Alt + F4,Ctrl + F6,Ctrl + Spacebar
+167,Computer Science,Which among the following correctly defines the working of a computer?,Calculate and process all sorts of data useful for human beings,Store data,Store data and delete data,Play movie and video games
+168,Computer Science,USB is a ………………………… storage device.,Secondary,Primary,Auxiliary,Additional
+169,Computer Science,Which among the following term is used to define the error in computer programing that produces wrong result?,Bug,Virus,Cookies,Trojan
+170,Computer Science,Which among the following is not a computer language?,DRAM,ALGOL,COBOL,PASCAL
+171,Computer Science,"The malicious software program, which is detrimental to other computer programs is known as …",Virus,Worms,Trojans,Spyware
+172,Computer Science,Which among the following projects is launched to provide e-governance facilities and information services to the rural community?,Param,Drishtee,Sirishtee,Vikas
+173,Computer Science,Which among the following controls all parts of the computer and known as the brain of computer?,CPU,RAM,ROM,Processor
+174,Computer Science,"If you need to select all the contents of MS Word, which command will you give?",Ctrl + A,Ctrl + C,Ctrl + V,Ctrl + Z
+175,Computer Science,Which among the following correctly defines the term cookie?,It is a message given to a web browswer by a web server,It is a password stored by web server,It is virus that corrupts other web file,It is intentionally created deceptive message that collects user's personal information
+178,Computer Science,Which among the following is a screen reading (Hindi and English) software developed to facilitate visually impaired persons to use computer?,SAFA,FASA,RAFA,SARA
+179,Computer Science,The first general purpose programmable electronic computer was …,ENIAC,Mac,IBM,UNEC
+180,Computer Science,Who among the following is popular as the father of computer?,Charles Babbage,Scott Aaronson,Charles Bachman,David A. Bader
+181,Computer Science,Who among the following has designed the Java programing language?,James Gosling,Brendan Eich,Guido van Rossum,Rasmus Lerdorf
+182,Computer Science,Who among the following first invented the computer mouse?,Douglas C. Engelbart,Adam Osborne,Adi Shamir,Alain Glavieux
+183,Computer Science,Which among the following is the shortcut key to delete a file without moving it into Recycle bin?,Shift + Delete,Ctrl + Delete,Alt + Delete,Delete + F5
+184,Computer Science,Which among the following correctly defines the IMac?,Simply a computer machine,High definition monitor,High capacity ROM, A high speed processor
+185,Computer Science,Which among the following types of memories get refreshed several times per second?,Dynamic RAM,ROM,Static RAM,Running RAM
+186,Computer Science,"As soon as a user log in his/her computer, the boot routine performs …",Power on self-test,Disk drive test,Motherboard test,CPU test
+187,Computer Science,Which among the following was the first computer virus?,Elk,Conficker,I Love you,Melissa
+188,Computer Science,Which among the following correctly explains the term ‘internet?’,International network,Internet network,Intercontinental network,Information network
+189,Computer Science,A sort of malware computer program that keeps replicating itself and can easily get diffused into other computers through internet is known as ...,Worms,Virus,Trojans,Spyware
+190,Computer Science,Which among the following is the earliest functioning base of the computer?,Vacuum tubes,Window,P1 processor,Microprocessor
+191,Computer Science,Which among the following is the shortcut key to full screen the active window (basically web browser) in your computer system?,F11,F5,F10,Ctrl + L
+192,Geography,How many countries are in the United Kingdom?,4,5,6,1
+193,Geography,Where is the only tropical rainforest in the United States?,Puerto Rico,Hawaii,Florida,California
+194,Geography,What country rules Greenland?,Denmark,Norway,Iceland,Sweden
+195,Geography,What is the longest river in the United States?,The Missouri River,The Mississippi River,The Colorado River,Tje Yukon River
+196,Geography,What is the largest lake in the United States,Lake Superior,The Great Salt Lake,Lake Michigan,Lake Ontario
+197,Geography,How many US States share a border with Canada?,13,10,8,12
+198,Geography,How many timezone are inthe United States?,6,4,5,8
+199,Geography,Which US state is known as The Garden State? ,New Jersey,Oregon,Washington,Hawaii
+200,Geography,What state is known as The Heart of Dixie? ,Alabama,Mississippi,Texas,Arkansas
+201,Geography,How many total islands does Hawaii have? ,132,57,8,16
+202,Geography,How many time zones does Australia have? ,3,4,2,6
+203,Geography,How many countries are in the continant of Africa?,54,28,17,60
+204,Geography,"What country borders the Caspian Sea, Persian Gulf, and Gulf of Oman?",Iran,Iraq,Pakistan,Qatar
+205,Geography,What is the smallest country in South America?,Suriname ,Bolivia,Uruguay,Ecuador
+206,Geography, What is the fastest flowing river in the world?,The Amazon River,The Congo River,The Yangtze River,The Mississippi River
+207,Geography,What is the only major city located on two continents?,Istanbul,Rome,Gibraltar,Singapore
+208,Geography,Riyadh is the capital of what Middle-Eastern country?,Saudi Arabia,Yemen,Syria,Oman
+209,Geography,What is the capital of Florida?,Tallahassee,Miami,St. Augustine,Orlando
+210,Geography,What city acted as the first Capital of the United States?,New York City,Washington,Philadelphia,Boston
+211,Geography,How many provinces does Canada have?,10,8,5,13

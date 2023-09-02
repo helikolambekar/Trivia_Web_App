@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %} LeaderBoard {% endblock %}
+
+{% block content %}
+
+
+    <h1 class='text-center'>Top Scores</h1>
+
+    <!-- TODO: the Select category still hard coding, need to implement a function to query the category by group dynamically.-->
+    <form action="{{ url_for('views.leaderBoardchooseCategory') }}" method="POST">
+        <label for="category">Choose a category</label>
+        <select id="category" name="category">
+            <option value="All" name="All"> --</option>
+            <option value="Geography" name="Geography">Geography</option>
+            <option value="Science" name="Science">Science</option>
+            <option value="Art" name="Art">Art</option>
+            <option value="TV shows" name="TV shows">TV shows</option>
+            <option value="Mythology" name="Mythology">Mythology</option>
+            <option value="Computer Science" name="Computer Science">Computer Science</option>
+            <option value="Movie" name="Movie">Movie</option>
+
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+
+   
+
+    <table class='table'>
+        <tr>
+            <th>Category</th>
+            <th>Username</th>
+            <th>Score</th>
+        </tr>
+        <tbody class='table-striped'>
+        {% for s in scores %}
+            <tr>
+                <td>{{ s.category }}</td>
+                <td>{{ s.username }}</td>
+                <td>{{ s.score }}</td>
+                {% if user.admin == 1 %}
+                    <td>
+                        <form method="POST" action="{{ url_for('admin.delete_score') }}">
+                            <input id="score_id" name="score_id" value="{{ s.id }}" style="visibility: hidden;">
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                {% endif %}
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% if user.admin == 1 %}
+        <a href='/admin' class='btn btn-primary'> Back</a>
+    {% else %}
+        <a href='/' class='btn btn-primary'> Main Page</a>
+    {% endif %}
+
+{% endblock %}

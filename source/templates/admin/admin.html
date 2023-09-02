@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block title %}Main page{% endblock %}
+{% block content %}
+
+    <div class="container" id="text">
+        <div class="text-center">
+            <H1 class="text-3d">ADMIN DASHBOARD</H1>
+        </div>
+    </div>
+    <br>
+    <div id="bg"></div>
+    <div class="container" id="box">
+        <div class="text-center">
+            <a href='/admin/question' id="question" class = "btn btn-lg  btn-outline-primary">Edit Questions</a> 
+            <a href='/leaderboard' id="score"  class = "btn btn-lg  btn-outline-secondary">Edit Scores</a> 
+            <a href='/admin/players' id="players"  class = "btn btn-lg  btn-outline-info">Edit Players</a>
+        </div>
+    </div>
+{% endblock %}

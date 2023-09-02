@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <!-- category.js file -->
+    <script type="text/javascript" src="{{ url_for('static', filename='/js/category.js') }}"></script>
+    <link rel="stylesheet" href="/static/css/category.css"/>
+{% endblock %}
+
+{% block title %}Category{% endblock %}
+{% block content %}
+    <style>
+        .option{
+           background-color: green; 
+        }
+    </style>
+
+    <div class="container">
+        <div class="text-center">
+            <h1 style="color: rgb(69, 204, 181);">SELECT CATEGORY</h1>
+        </div>
+    </div>
+    <br>
+    <!-- <hr> -->
+    <div class="container" id="categorybox">
+        <div class="container">
+
+            <div class='col-md-5 text-center option btn btn-outline-secondary' id="Geography">
+                <img src="{{ url_for('static', filename='/image/geo.jfif') }}" width="240" height="133">
+                <div >GEOGRAPHY</div>
+            </div>
+
+            <div class='col-md-5 text-center option btn btn-outline-secondary'
+                 style="background-color: rgb(228, 131, 131);" id="Art">
+                <img src="{{ url_for('static', filename='/image/art.jfif') }}" width="240" height="133">
+                <div>ART</div>
+            </div>
+
+            <div class='col-md-5 text-center option btn btn-outline-secondary' id="Computer Science">
+                <img src="{{ url_for('static', filename='/image/CS.png') }}" width="240" height="133">
+                <div>COMPUTER SCIENCE</div>
+            </div>
+
+            <div class='col-md-5 text-center option btn btn-outline-secondary'
+                 style="background-color: rgb(228, 131, 131);" id="Science">
+                <img src="{{ url_for('static', filename='/image/science.jfif') }}" width="240" height="133">
+                <div>SCIENCE</div>
+            </div>
+
+            <div class='col-md-5 text-center option btn btn-outline-secondary' id="Mythology">
+                <img src="{{ url_for('static', filename='/image/mythology.jpg') }}" width="240" height="133">
+                <div>MYTHOLOGY</div>
+            </div>
+
+            <div class='col-md-5 text-center option btn btn-outline-secondary'
+                 style="background-color: rgb(228, 131, 131);" id="TV shows">
+                <img src="{{ url_for('static', filename='/image/tv_shows.jfif') }}" width="240" height="133">
+                <div>TV SHOWS</div>
+            </div>
+
+            <div class='col-md-5 text-center option btn btn-outline-secondary' id="Movie">
+                <img src="{{ url_for('static', filename='/image/Movie.jpg') }}" width="240" height="133">
+                <div>MOVIE</div>
+            </div>
+
+            <div class='col-md-5 text-center option btn btn-outline-secondary'
+                 style="background-color: rgb(228, 131, 131);" id="All">
+                <img src="{{ url_for('static', filename='/image/all.jpg') }}" width="240" height="133">
+                <div>ALL</div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div class="text-center">
+        <button class="btn btn-primary btn-lg" id="startgame">START</button>
+    </div>
+    <div class='col-md-5 text-center option' style="visibility: hidden; display:inline;" id="category"></div>
+    </div>
+{% endblock %}
